@@ -1,0 +1,20 @@
+
+app:
+  name: "my-demo-app"
+  version: "1.0.0"
+
+database:
+  host: "prod-db.example.com"
+  port: 5432
+  connection_pool_size: 10
+  timeout_seconds: 30
+
+api:
+  base_url: "https://api.example.com"
+  max_retries: 3
+  auth_token_env: "API_AUTH_TOKEN"
+
+feature_flags:
+  enable_new_checkout: false
+  enable_bulk_orders: false
+
